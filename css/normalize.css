@@ -137,6 +137,11 @@ h1 {
   margin: 0.67em 0;
 }
 
+p {
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+}
+
 /**
  * Address styling not present in IE 8/9.
  */
@@ -331,8 +336,8 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  */
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -343,8 +348,8 @@ input[type="radio"] {
  * decrement button to change from `default` to `text`.
  */
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -354,7 +359,7 @@ input[type="number"]::-webkit-outer-spin-button {
  *    (include `-moz` to future-proof).
  */
 
-input[type="search"] {
+input[type='search'] {
   -webkit-appearance: textfield; /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box; /* 2 */
@@ -367,8 +372,8 @@ input[type="search"] {
  * padding (and `textfield` appearance).
  */
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
