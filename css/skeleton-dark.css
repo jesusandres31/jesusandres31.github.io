@@ -82,13 +82,15 @@ html {
 }
 
 body {
-  background-color: #000000;
+  background-color: #121414;
+  color: #e8e6e3;
+  /* background-color: #020617;
+  color: #f8fafc; */
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+  font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
-  color: #ffffff;
 }
 
 /* Typography
